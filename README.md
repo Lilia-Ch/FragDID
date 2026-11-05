@@ -1,4 +1,4 @@
-# FragInv
+# FragDID
 
 Property-targeted molecular generation by direct optimisation over a fragment graph. A candidate is two tensors, which motif occupies each slot and which slots are bonded. The molecule is decoded discretely at every step and rebuilt differentiably with a straight-through estimator, so a frozen property predictor scores exactly the molecule that comes out. Nothing is trained during generation.
 
